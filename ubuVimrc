@@ -1,0 +1,31 @@
+set nocompatible
+
+" show line numbers
+set nu
+
+" set the colorscheme
+colo monochrome
+
+" turn on syntax highlighting
+syntax on
+
+" show the command in the bottom right
+set showcmd
+
+" highlight the matching parenthesis
+set showmatch
+
+" search as you type
+set incsearch
+
+" set terminal colors to 256
+set t_Co=256
+
+" turn on autoindentation
+set autoindent
+
+" size of an "indent"
+set shiftwidth=2
+
+" make "tab" insert indents instead of tabs at the beginning of a line
+set smarttab
